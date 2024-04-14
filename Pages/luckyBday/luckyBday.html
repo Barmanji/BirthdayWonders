@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="luckyBday.css" />
+  <title>Is your Bday Lucky?</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../../main.html">Home</a></li>
+        <li><a href="../palindromeBday/palindrome.html">Palindrome Bday</a></li>
+        <li><a href="luckyBday.html">lucky Bday</a></li>
+
+        <li><a href="../ageCalc/age.html">Age Calculator</a></li>
+
+
+
+      </ul>
+    </nav>
+  </header>
+  <h1 class="header">Is your <br> <span id="bday-lucky">Birthday Lucky? </span> </h1>
+  <main class="container">
+    <label for="date-of-birth">Date Of Birth:</label>
+    <input type="date" id="date-of-birth" />
+    <label for="lucky-number">Lucky Number:</label>
+    <input type="number" id="lucky-number" placeholder="Enter a number" />
+  </main>
+  <p id="output-container"></p>
+
+  <button id="calculate-number">Check Number</button>
+  <p id="end" class="hidden">How does this work: <br> Sum of your BirthDate = ChosenNumber,<br> then its you lucky no.
+    else not.</p>
+
+
+  <script src="./luckyBday.js" type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    padding: 10px;
+    background: linear-gradient(135deg, #41bf6d, #cae189);
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.4em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: rgb(23, 112, 21);
+}
+
+/* Input  */
+.box1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#bday-input {
+    background-color: #fff;
+    padding-inline: 3.6rem ;
+}
+
+input[type="date"],
+button {
+    padding: 10px 30px;
+    border: 5px solid #fff; 
+    border-radius: 5px;
+    background-color: rgb(255, 210, 156);
+    color: #075323;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="date"]:focus,
+button:focus {
+    outline: none; 
+    border-color: #ccc; 
+}
+
+button:hover {
+    background-color: #2bdc92;
+}
+
+
+/* Main Content  */
+main {
+    margin-top: 30px; 
+    text-align: center;
+}
+
+h3 {
+    margin-top: 4rem;
+    font-size: 3.5em;
+    margin-bottom: 2rem; 
+    color: rgb(23, 108, 61);
+}
+
+h4 {
+    font-size: 1.4em; 
+    margin-bottom: 20px; 
+    font-weight: lighter;
+}
+#result {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+}
+
+#Meaning {
+    font-size: 1.9em;
+    margin-top: 1.1rem;
+    font-weight: bold;
+    color: rgb(23, 108, 61);
+
+}
+
+textarea {
+    width: 45%; 
+    height: 10rem;
+    margin: 20px auto; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em; 
+    resize: none;
+}

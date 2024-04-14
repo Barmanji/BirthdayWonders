@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff1867, #ffbf69);
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.4em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: rgb(112, 21, 21);
+}
+
+
+h1 {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 4em;
+}
+
+#bday-lucky {
+    color: #80023b;
+
+    font-size: 4.4rem;
+
+
+}
+
+button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0b6c9;
+    color: #61032d;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #f7839e;
+    opacity: 0.9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 21%;
+    margin-left: 10%;
+
+}
+
+#date-of-birth,
+#lucky-number {
+
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1.2em;
+
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 1.1rem;
+}
+
+#calculate-number {
+    display: flex;
+    flex-direction: column;
+    max-width: 21%;
+    margin-left: 10%;
+
+
+}
+
+#output-container {
+
+    margin-left: 10%;
+    font-weight: bold;
+
+    font-size: 1.2rem;
+
+}
+
+#end {
+    margin-left: 10%;
+    font-weight: bold;
+
+    font-size: 1.2rem;
+
+
+}
+
+.hidden {
+    display: none;
+}

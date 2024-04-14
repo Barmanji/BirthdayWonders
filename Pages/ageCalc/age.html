@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="../../main.html">Home</a></li>
+              <li><a href="../palindromeBday/palindrome.html">Palindrome Bday</a></li>
+              <li><a href="../luckyBday/luckyBday.html">lucky Bday</a></li>
+  
+              <li><a href="age.html">Age Calculator</a></li>
+  
+  
+  
+            </ul>
+        </nav>
+    </header>
+    <h1><span id="head1">Javascript</span><br> <span id="head2"> Age Calculator</span></h1>
+
+    <div class="main">
+        <div class="box1">
+            <input type="date" id="date-input">
+            <button onclick="ageCalculate()">Calculate</button>
+        </div>
+        <p class="box2">
+            You are
+            
+                <span id="years">
+                    _
+                </span>
+                years
+             
+                <span id="months">
+                    _
+                </span>
+                months
+            
+                <span id="days">
+                    _
+                </span>
+          days old.
+    </p>
+
+    <p id="noInput"></p>
+    <div class="line"></div>
+    <script src="age.js"></script>
+</body>
+</html>
