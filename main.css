@@ -133,3 +133,23 @@ transition: 0.5s;
     #footer {
         color: rgb(110, 237, 110);
     }
+#span {
+  position: relative;
+  display: inline-block;
+}
+
+#span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Adjust the distance between the text and underline */
+  width: 0;
+  height: 2px;
+  transition: width 0.2s ease-in-out; 
+    background-color: #68ed75;
+}
+
+#span:hover::after {
+  width: 100%; /* Animate to full width on hover */
+}
+
